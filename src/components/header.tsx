@@ -1,5 +1,11 @@
 import { Button } from "@/primitives/button";
-import { AlignJustify, Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import {
+  AlignJustify,
+  Github,
+  Instagram,
+  Linkedin,
+  Twitter,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -20,17 +26,29 @@ const Header = () => {
         <div className="hover:bg-accent md:hidden ">
           <AlignJustify />
         </div>
-        <Link href={"/"} className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block">
-            <Github  />
+        <Link
+          href={"/"}
+          className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block"
+        >
+          <Github />
         </Link>
-        <Link href={"/"} className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block">
-            <Linkedin  />
+        <Link
+          href={"/"}
+          className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block"
+        >
+          <Linkedin />
         </Link>
-        <Link href={"/"} className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block">
-            <Twitter  />
+        <Link
+          href={"/"}
+          className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block"
+        >
+          <Twitter />
         </Link>
-        <Link href={"/"} className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block">
-            <Instagram  />
+        <Link
+          href={"/"}
+          className="hidden rounded-md bg-transparent px-4 py-2 text-foreground hover:bg-accent md:block"
+        >
+          <Instagram />
         </Link>
         <Link href={"/"}>
           <Button className="hidden bg-transparent text-foreground hover:bg-secondary md:block">

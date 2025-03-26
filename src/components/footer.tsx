@@ -40,7 +40,10 @@ const Footer = () => {
       <div className="border-neutral-700 border-t">
         <div className="flex items-center justify-between px-8 py-4">
           <div>
-            <p className="flex items-center gap-1 text-sm hover:text-[#2A39E8]">androtechbuddy.com<Copyright size={12}/> 2024</p>
+            <p className="flex items-center gap-1 text-sm hover:text-[#2A39E8]">
+              androtechbuddy.com
+              <Copyright size={12} /> 2024
+            </p>
           </div>
           <div className="flex items-center gap-4">
             <Github />
