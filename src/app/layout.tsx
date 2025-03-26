@@ -3,9 +3,11 @@ import "@/styles/root-layout.css";
 import { fonts } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/theme";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export const metadata: Metadata = {
-  title: "Next Essential | Elementary",
+  title: "ABT | Opensource",
   description:
     "Next Essential - An Essential Template to get started with Next.js application with all the essentials included...",
   icons: {
@@ -74,7 +76,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
