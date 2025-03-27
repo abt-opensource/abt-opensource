@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 
 export const metadata: Metadata = {
-  title: "ABT | Opensource",
+  title: "ABT | Open Source",
   description:
     "Next Essential - An Essential Template to get started with Next.js application with all the essentials included...",
   icons: {

@@ -21,7 +21,7 @@ const Header = () => {
           className="mr-5 rounded-2xl"
         />
       </div>
-      <div className="font-semibold">ABT | Open source</div>
+      <div className="font-semibold">ABT | OPEN SOURCE</div>
       <div className="ml-auto flex items-center gap-2 md:gap-4">
         <div className="hover:bg-accent md:hidden ">
           <AlignJustify />
@@ -51,7 +51,7 @@ const Header = () => {
           <Instagram />
         </Link>
         <Link href={"/"}>
-          <Button className="hidden bg-transparent text-foreground hover:bg-secondary md:block">
+          <Button variant={"secondary"} className="hidden md:block">
             About us
           </Button>
         </Link>

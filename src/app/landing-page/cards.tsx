@@ -30,7 +30,7 @@ const Cards = () => {
                     alt={card.title}
                     width={75}
                     height={75}
-                    className="rounded-full drop-shadow-lg"
+                    className="drop-shadow-lg"
                   />
                 </div>
 
