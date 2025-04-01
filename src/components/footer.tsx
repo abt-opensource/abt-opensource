@@ -16,7 +16,9 @@ const Footer = () => {
                 height={60}
                 className="mr-5 rounded-2xl "
               />
-              <div className="font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-7xl">ABT | OPEN SOURCE</div>
+              <div className="font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-7xl">
+                ABT | OPEN SOURCE
+              </div>
             </div>
             <div className="grid w-full grid-cols-2 gap-10 font-geist-mono md:gap-auto">
               <div className="flex flex-col gap-4">
@@ -45,7 +47,10 @@ const Footer = () => {
       <div className="border-neutral-700 border-t">
         <div className="flex items-center justify-between px-8 py-4">
           <div>
-            <Link href={"https://androtechbuddy.com/"} className="flex items-center gap-1 text-sm hover:text-primary">
+            <Link
+              href={"https://androtechbuddy.com/"}
+              className="flex items-center gap-1 text-sm hover:text-primary"
+            >
               androtechbuddy.com
               <Copyright size={12} /> 2024
             </Link>

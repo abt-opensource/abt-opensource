@@ -18,7 +18,10 @@ const cardData = [
 const Cards = () => {
   return (
     <>
-      <div className="flex min-h-screen items-center justify-center " id="cards">
+      <div
+        className="flex min-h-screen items-center justify-center "
+        id="cards"
+      >
         <div className="flex flex-col sm:gap-12 md:flex-row">
           {cardData.map((card, index) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>

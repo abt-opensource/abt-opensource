@@ -1,7 +1,5 @@
 import { Button } from "@/primitives/button";
-import {
-  Github,
-} from "lucide-react";
+import { Github } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
