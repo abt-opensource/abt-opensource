@@ -13,7 +13,7 @@ const HeroSection = () => {
           <h1 className="mb-4 text-center font-semibold text-7xl max-sm:text-4xl lg:mb-8 ">
             Open Source
           </h1>
-          <p className="mb-4 w-10/12 text-center text-base max-sm:text-xs sm:w-8/12 md:w-6/12 lg:mb-8">
+          <p className="mb-4 w-10/12 text-center font-geist-mono text-base max-sm:text-xs sm:w-8/12 md:w-6/12 lg:mb-8">
             At Androbuddy Technologies, we believe in the power of open source
             to drive innovation. Explore our projects, contribute, and be a part
             of a collaborative future!

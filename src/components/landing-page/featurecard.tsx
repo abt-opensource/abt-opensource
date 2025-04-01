@@ -28,7 +28,7 @@ const FeatureCard = () => {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="flex flex-col gap-4 rounded-lg border border-[#222] bg-background p-6 text-foreground shadow-md"
+              className="flex flex-col gap-4 rounded-lg border border-[#222] bg-neutral-950 p-6 font-geist-mono text-white shadow-md"
             >
               <div className="flex items-center">{feature.icon}</div>
               <h3 className="font-semibold text-lg">{feature.title}</h3>
