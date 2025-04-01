@@ -5,25 +5,28 @@ const cardData = [
     icon: "/flutercon.jpg",
     title: "FLUTTERCON",
     description:
-      "The build system for JavaScript and TypeScript codebases also our main skill is to make the re.",
+      "Flutercon is an open-source icon library featuring 1500+ carefully crafted icons, specially designed for Flutter applications.",
   },
   {
     icon: "/fluteressentials.png",
     title: "FLUTTER-ESSENTIAL",
     description:
-      "High-performance bundler for React Server Components and TypeScript codebases.",
+      "Flutter Essentials is an open-source project template that provides all the necessary configurations for Flutter development.",
   },
 ];
 
 const Cards = () => {
   return (
     <>
-      <div className="flex min-h-screen items-center justify-center" id="cards">
-        <div className="flex flex-col gap-12 md:flex-row">
+      <div
+        className="flex min-h-screen items-center justify-center "
+        id="cards"
+      >
+        <div className="flex flex-col sm:gap-12 md:flex-row">
           {cardData.map((card, index) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <div key={index} className="">
-              <div className="card-content w-[380px] rounded-xl bg-cardBg p-8 text-center shadow-lg backdrop-blur-lg transition-transform duration-300 hover:shadow-lg">
+              <div className="card-content w-[350px] rounded-xl bg-cardBg p-8 text-center shadow-lg backdrop-blur-lg transition-transform duration-300 hover:shadow-lg sm:w-[400px]">
                 <div className="flex justify-center">
                   <Image
                     src={card.icon}
