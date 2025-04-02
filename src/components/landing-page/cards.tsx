@@ -37,7 +37,7 @@ const Cards = () => {
                   />
                 </div>
 
-                <h2 className="mt-8 font-bold text-3xl text-white tracking-wide">
+                <h2 className="mt-8 font-bold font-geist-sans text-3xl text-white tracking-wide">
                   {card.title}
                 </h2>
 
