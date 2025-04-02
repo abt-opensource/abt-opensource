@@ -16,7 +16,7 @@ const Footer = () => {
                 height={60}
                 className="mr-5 rounded-2xl "
               />
-              <div className="font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-7xl">
+              <div className="font-geist-sans font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-7xl">
                 ABT | OPEN SOURCE
               </div>
             </div>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-neutral-700 border-t">
-        <div className="flex items-center justify-between px-8 py-4">
+        <div className="flex items-center justify-between py-4 sm:px-8">
           <div className="flex items-center gap-1 text-sm">
             <Link
               href={"https://androtechbuddy.com/"}
@@ -92,7 +92,7 @@ const Footer = () => {
             <Copyright size={12} />
             2024
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-1 sm:gap-4">
             <Link href={"https://github.com/abt-opensource"}>
               <Github />
             </Link>

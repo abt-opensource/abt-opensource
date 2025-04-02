@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="w-full py-20">
       <div className="mb-20 px-5 lg:px-20">
-        <h1 className="mb-4 text-5xl">About ABT Open Source</h1>
+        <h1 className="mb-4 font-geist-sans text-5xl">About ABT Open Source</h1>
         <p>
           We believe great software is built in the open, by the community, for
           the community.
@@ -11,7 +11,7 @@ const About = () => {
       <div className="mx-auto w-[95%] sm:w-[90%] lg:w-[80%]">
         <div className="flex min-h-screen flex-col items-center justify-center">
           <div className="mb-20">
-            <h1 className="mb-5 text-center text-4xl">Our Mission</h1>
+            <h1 className="mb-5 text-center font-semibold text-4xl">Our Mission</h1>
             <p className="text-center">
               We believe open source is the key to driving innovation and
               collaboration in the tech community. By sharing our code, tools,
@@ -50,7 +50,7 @@ const About = () => {
         </div>
         <div>
           <div className="mb-20">
-            <h1 className="mb-5 text-center text-4xl">
+            <h1 className="mb-5 text-center font-semibold text-4xl">
               Androbuddy Technologies is Built on Open Source
             </h1>
             <p className="mb-5 text-center">

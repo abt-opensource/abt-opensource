@@ -66,7 +66,7 @@ export default function RootLayout({
       className={cn(
         fonts.GeistSans.variable,
         fonts.GeistMono.variable,
-        "font-geist-sans"
+        "font-geist-mono"
       )}
     >
       <body>
