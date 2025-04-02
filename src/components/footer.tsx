@@ -30,7 +30,11 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href={"https://github.com/abt-opensource/flutter-essentials"}>
+                    <Link
+                      href={
+                        "https://github.com/abt-opensource/flutter-essentials"
+                      }
+                    >
                       Flutter Essentials
                     </Link>
                   </li>
@@ -40,9 +44,7 @@ const Footer = () => {
                 <div className="font-semibold">Company</div>
                 <ul className="flex flex-col gap-2 text-sm *:text-neutral-500 *:hover:text-primary">
                   <li>
-                    <Link href={"/about-us"}>
-                      About us
-                    </Link>
+                    <Link href={"/about-us"}>About us</Link>
                   </li>
                   <li>
                     <Link href={"https://androtechbuddy.com/why-us/"}>
@@ -50,9 +52,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href={"https://androtechbuddy.com/team/"}>
-                      Team
-                    </Link>
+                    <Link href={"https://androtechbuddy.com/team/"}>Team</Link>
                   </li>
                   <li>
                     <Link href={"https://androtechbuddy.com/careers/"}>
@@ -89,19 +89,30 @@ const Footer = () => {
             >
               <span className="hover:text-primary">androtechbuddy.com</span>
             </Link>
-            <Copyright size={12} />2024
+            <Copyright size={12} />
+            2024
           </div>
           <div className="flex items-center gap-4">
             <Link href={"https://github.com/abt-opensource"}>
               <Github />
             </Link>
-            <Link href={"https://www.linkedin.com/company/androbuddytechnologies/"}>
+            <Link
+              href={"https://www.linkedin.com/company/androbuddytechnologies/"}
+            >
               <Linkedin />
             </Link>
-            <Link href={"https://x.com/AndroTechBuddy?t=5WC8lpGK6CU7tWeEq6xoEg&s=08"}>
+            <Link
+              href={
+                "https://x.com/AndroTechBuddy?t=5WC8lpGK6CU7tWeEq6xoEg&s=08"
+              }
+            >
               <Twitter />
             </Link>
-            <Link href={"https://www.instagram.com/androbuddy_ig?igsh=dDJrMGZxajVkM2Vr"}>
+            <Link
+              href={
+                "https://www.instagram.com/androbuddy_ig?igsh=dDJrMGZxajVkM2Vr"
+              }
+            >
               <Instagram />
             </Link>
           </div>
