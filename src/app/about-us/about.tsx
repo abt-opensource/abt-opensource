@@ -11,7 +11,9 @@ const About = () => {
       <div className="mx-auto w-[95%] sm:w-[90%] lg:w-[80%]">
         <div className="flex min-h-screen flex-col items-center justify-center">
           <div className="mb-20">
-            <h1 className="mb-5 text-center font-semibold text-4xl">Our Mission</h1>
+            <h1 className="mb-5 text-center font-semibold text-4xl">
+              Our Mission
+            </h1>
             <p className="text-center">
               We believe open source is the key to driving innovation and
               collaboration in the tech community. By sharing our code, tools,
