@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div>
       <div className="flex min-h-screen w-full items-center justify-center p-4 text-white md:p-10">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center font-geist-sans">
           <h1 className="text-center font-semibold text-7xl max-sm:text-4xl">
             ABT
           </h1>
